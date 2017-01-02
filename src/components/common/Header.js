@@ -6,7 +6,7 @@ import {
 } from 'react-native';
 
 
-export default class Header extends Component {
+class Header extends Component {
     // constructor(props) {
     //     super(props);
     // }
@@ -37,3 +37,5 @@ const styles = StyleSheet.create({
         fontSize: 20
     }
 })
+
+export { Header };
