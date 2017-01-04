@@ -1,4 +1,4 @@
 import {AppRegistry} from 'react-native';
-import App from './src/MainApp';
+import App from './src/App';
 
 AppRegistry.registerComponent('auth', () => App);
